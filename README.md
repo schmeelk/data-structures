@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+#Parsons School of Design, The New School
+#School of Art, Media and Technology
+#Master of Science, Data Visualization
+#Data Structures
+#PGDV 5110 Fall 2017
 
-You can use the [editor on GitHub](https://github.com/schmeelk/data-structures/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Tuesday, 7:00pm - 9:40pm
+66 5th Avenue, Room 710
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+#Faculty: Aaron Hill | Office Hours: Thursdays 4:00pm - 6:00pm, L408
+#Teaching Assistant: Will Su | Office Hours: Wednesdays 4:00pm - 6:30pm, L408
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/schmeelk/data-structures/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Curating raw data presents issues of technology, speed, and efficiency, as well as broader ethical considerations of what it means to represent and make conclusions about groups and individuals from their data. This course covers the database, semi-structured data, and unstructured data. Students will gain familiarity with underlying data structures; techniques and tools, including acquisition, augmentation, and restructuring; data storage and aggregation; access to parallel and distributed computing; high-volume data, disparate sources, and performance; and streaming data, real time, and dynamic queries.
