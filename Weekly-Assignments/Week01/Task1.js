@@ -13,7 +13,7 @@ function GetMyResourceData(i){
     });
 }
 
-var async_function = function(val, callback){
+var async_function = function(callback){
   var i = 1;
   for (; i < 10; i++) { 
     GetMyResourceData('0' + i)
@@ -21,11 +21,9 @@ var async_function = function(val, callback){
   GetMyResourceData(10);
 };
 
-async_function(42, function(val) {
+async_function(function(val) {
   //console.log(val)
 });
 //console.log(43);
-
-
 
 
