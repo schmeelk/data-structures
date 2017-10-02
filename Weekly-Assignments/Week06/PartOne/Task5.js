@@ -24,7 +24,7 @@ $('div table tbody tr').each(function(f, e) {
 //process.exit(0);
 
 for (var j = 0; j < meetings.length; j++){  //parse each row
-    if (j > 1)
+    if (j > 0)
         delete meetings[j-1].locations;
     //lines = meetings[j].locations.split('\n')[4].split(',').length; //number of lines for address
     lines = meetings[j].locations.split('\n').length; //number of lines for address
