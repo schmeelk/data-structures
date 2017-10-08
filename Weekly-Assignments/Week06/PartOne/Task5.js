@@ -14,6 +14,7 @@ var meeting_times = "";
 var time_row_elements = "";
 var time_row = "";
 var final_meetings = [];
+var time_parts = '';
 
 $('div table tbody tr').each(function(f, e) {
     var meeting = new Object;
@@ -103,14 +104,21 @@ async.eachSeries(meetings, function(value, callback) {
             //console.log(time_row_elements);
             var final_meeting = new Object;
             final_meeting.day = time_row_elements[0];
+            console.log(time_row_elements[3])
+            time_parts = time_row_elements[3].split(":");
+            console.log(time_parts[0]);
+            console.log(time_parts[1]);
             if (time_row_elements[4] == 'PM')
-                final_meeting.start = parseInt(time_row_elements[3]) + 12;
+                final_meeting.start = parseInt(time_parts[0]) + 12;
             else
-                final_meeting.start = parseInt(time_row_elements[3]);
+                final_meeting.start = parseInt(time_parts[0]);
+            final_meeting.start_minutes = time_parts[1];
+            time_parts = time_row_elements[6].split(":");
             if (time_row_elements[7] == 'PM')
-                final_meeting.end = parseInt(time_row_elements[6]) + 12;
+                final_meeting.end = parseInt(time_parts[0]) + 12;
             else
-                final_meeting.end = parseInt(time_row_elements[6]);
+                final_meeting.end = parseInt(time_parts[0]);
+            final_meeting.end_minutes = time_parts[1];
             final_meeting.type = time_row_elements[10];
             final_meeting.details = meetings[j].details;
             final_meeting.zipcode = meetings[j].zipcode;
