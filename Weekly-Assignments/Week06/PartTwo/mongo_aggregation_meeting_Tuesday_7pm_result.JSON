@@ -1,28 +1,11 @@
 [
     {
-        "_id": "59daa32822fe361baf7fc4eb",
+        "_id": "59dab83dbd937b2463833683",
         "day": "Tuesdays",
         "start": 19,
+        "start_minutes": "30",
         "end": 20,
-        "type": "O",
-        "details": "Spanish speaking meeting.",
-        "zipcode": "10025",
-        "latlong": {
-            "lat": 40.798687,
-            "lng": -73.9649286
-        },
-        "street": "125 West 104th Street",
-        "new_york_addresses": "125 West 104th Street, New York, NY",
-        "notes": "1st Floor",
-        "title": "GRUPO LUZ DIVINA -",
-        "name": "Iglesia Metodista Grace",
-        "wheelchairaccess": "Yes"
-    },
-    {
-        "_id": "59daa32822fe361baf7fc500",
-        "day": "Tuesdays",
-        "start": 19,
-        "end": 20,
+        "end_minutes": "30",
         "type": "C",
         "details": "All meetings are non-smoking.",
         "zipcode": "10024",
@@ -38,105 +21,12 @@
         "wheelchairaccess": "No"
     },
     {
-        "_id": "59daa32822fe361baf7fc523",
-        "day": "Tuesdays",
-        "start": 19,
-        "end": 20,
-        "type": "B",
-        "details": "",
-        "zipcode": "10024",
-        "latlong": {
-            "lat": 40.7888908,
-            "lng": -73.9772512
-        },
-        "street": "263 West 86th Street",
-        "new_york_addresses": "263 West 86th Street, New York, NY",
-        "notes": "1st Floor",
-        "title": "WEST END - West End",
-        "name": "Church of St. Paul & St. Andrew",
-        "wheelchairaccess": "Yes"
-    },
-    {
-        "_id": "59daa32822fe361baf7fc524",
-        "day": "Tuesdays",
-        "start": 19,
-        "end": 20,
-        "type": "BB",
-        "details": "",
-        "zipcode": "10024",
-        "latlong": {
-            "lat": 40.7888908,
-            "lng": -73.9772512
-        },
-        "street": "263 West 86th Street",
-        "new_york_addresses": "263 West 86th Street, New York, NY",
-        "notes": "1st Floor",
-        "title": "WEST END - West End",
-        "name": "Church of St. Paul & St. Andrew",
-        "wheelchairaccess": "Yes"
-    },
-    {
-        "_id": "59daa32822fe361baf7fc4a8",
-        "day": "Tuesdays",
-        "start": 19,
-        "end": 20,
-        "type": "B",
-        "details": "All Meetings Are Non-Smoking. Anniversary meeting last Tues at 6:15",
-        "zipcode": "10025",
-        "latlong": {
-            "lat": 40.8018597,
-            "lng": -73.9663042
-        },
-        "street": "221 West 107th Street",
-        "new_york_addresses": "221 West 107th Street, New York, NY",
-        "notes": "Basement",
-        "title": "BLOOMINGDALE - Bloomingdale",
-        "name": "Church of the Ascension",
-        "wheelchairaccess": "No"
-    },
-    {
-        "_id": "59daa32822fe361baf7fc4ac",
-        "day": "Tuesdays",
-        "start": 24,
-        "end": 13,
-        "type": "C",
-        "details": "",
-        "zipcode": "10025",
-        "latlong": {
-            "lat": 40.8070418,
-            "lng": -73.9651341
-        },
-        "street": "601 West 114th Street",
-        "new_york_addresses": "601 West 114th Street, New York, NY",
-        "notes": "(2nd Red Door)",
-        "title": "CAMPUS CHEER - Campus Cheer",
-        "name": "Broadway Presbyterian Church",
-        "wheelchairaccess": "No"
-    },
-    {
-        "_id": "59daa32822fe361baf7fc4ae",
-        "day": "Tuesdays",
-        "start": 20,
-        "end": 21,
-        "type": "C",
-        "details": "T Last Thursday",
-        "zipcode": "10023",
-        "latlong": {
-            "lat": 41.0882898,
-            "lng": -80.7434787
-        },
-        "street": "Central Park West & 76th Street",
-        "new_york_addresses": "Central Park West & 76th Street, New York, NY",
-        "notes": "basement gymnasium",
-        "title": "CENTRAL PARK WEST - Central Park West",
-        "name": "Universalist Church",
-        "wheelchairaccess": "No"
-    },
-    {
-        "_id": "59daa32822fe361baf7fc505",
+        "_id": "59dab83dbd937b2463833688",
         "day": "Tuesdays",
         "start": 22,
+        "start_minutes": "00",
         "end": 23,
+        "end_minutes": "00",
         "type": "S",
         "details": "Anniv. Last Thursday, Fri=Promises, Sat=As Bill Sees It",
         "zipcode": "10025",
@@ -152,10 +42,12 @@
         "wheelchairaccess": "No"
     },
     {
-        "_id": "59daa32822fe361baf7fc511",
+        "_id": "59dab83dbd937b2463833694",
         "day": "Tuesdays",
         "start": 19,
+        "start_minutes": "00",
         "end": 20,
+        "end_minutes": "00",
         "type": "B",
         "details": "",
         "zipcode": "10024",
@@ -169,5 +61,131 @@
         "title": "ROUTES -",
         "name": "Phoenix House",
         "wheelchairaccess": "No"
+    },
+    {
+        "_id": "59dab83dbd937b24638336a6",
+        "day": "Tuesdays",
+        "start": 19,
+        "start_minutes": "00",
+        "end": 20,
+        "end_minutes": "00",
+        "type": "B",
+        "details": "",
+        "zipcode": "10024",
+        "latlong": {
+            "lat": 40.7888908,
+            "lng": -73.9772512
+        },
+        "street": "263 West 86th Street",
+        "new_york_addresses": "263 West 86th Street, New York, NY",
+        "notes": "1st Floor",
+        "title": "WEST END - West End",
+        "name": "Church of St. Paul & St. Andrew",
+        "wheelchairaccess": "Yes"
+    },
+    {
+        "_id": "59dab83dbd937b24638336a7",
+        "day": "Tuesdays",
+        "start": 19,
+        "start_minutes": "00",
+        "end": 20,
+        "end_minutes": "00",
+        "type": "BB",
+        "details": "",
+        "zipcode": "10024",
+        "latlong": {
+            "lat": 40.7888908,
+            "lng": -73.9772512
+        },
+        "street": "263 West 86th Street",
+        "new_york_addresses": "263 West 86th Street, New York, NY",
+        "notes": "1st Floor",
+        "title": "WEST END - West End",
+        "name": "Church of St. Paul & St. Andrew",
+        "wheelchairaccess": "Yes"
+    },
+    {
+        "_id": "59dab83dbd937b246383362b",
+        "day": "Tuesdays",
+        "start": 19,
+        "start_minutes": "30",
+        "end": 20,
+        "end_minutes": "30",
+        "type": "B",
+        "details": "All Meetings Are Non-Smoking. Anniversary meeting last Tues at 6:15",
+        "zipcode": "10025",
+        "latlong": {
+            "lat": 40.8018597,
+            "lng": -73.9663042
+        },
+        "street": "221 West 107th Street",
+        "new_york_addresses": "221 West 107th Street, New York, NY",
+        "notes": "Basement",
+        "title": "BLOOMINGDALE - Bloomingdale",
+        "name": "Church of the Ascension",
+        "wheelchairaccess": "No"
+    },
+    {
+        "_id": "59dab83dbd937b246383362f",
+        "day": "Tuesdays",
+        "start": 24,
+        "start_minutes": "30",
+        "end": 13,
+        "end_minutes": "30",
+        "type": "C",
+        "details": "",
+        "zipcode": "10025",
+        "latlong": {
+            "lat": 40.8070418,
+            "lng": -73.9651341
+        },
+        "street": "601 West 114th Street",
+        "new_york_addresses": "601 West 114th Street, New York, NY",
+        "notes": "(2nd Red Door)",
+        "title": "CAMPUS CHEER - Campus Cheer",
+        "name": "Broadway Presbyterian Church",
+        "wheelchairaccess": "No"
+    },
+    {
+        "_id": "59dab83dbd937b2463833631",
+        "day": "Tuesdays",
+        "start": 20,
+        "start_minutes": "15",
+        "end": 21,
+        "end_minutes": "30",
+        "type": "C",
+        "details": "T Last Thursday",
+        "zipcode": "10023",
+        "latlong": {
+            "lat": 41.0882898,
+            "lng": -80.7434787
+        },
+        "street": "Central Park West & 76th Street",
+        "new_york_addresses": "Central Park West & 76th Street, New York, NY",
+        "notes": "basement gymnasium",
+        "title": "CENTRAL PARK WEST - Central Park West",
+        "name": "Universalist Church",
+        "wheelchairaccess": "No"
+    },
+    {
+        "_id": "59dab83dbd937b246383366e",
+        "day": "Tuesdays",
+        "start": 19,
+        "start_minutes": "30",
+        "end": 20,
+        "end_minutes": "30",
+        "type": "O",
+        "details": "Spanish speaking meeting.",
+        "zipcode": "10025",
+        "latlong": {
+            "lat": 40.798687,
+            "lng": -73.9649286
+        },
+        "street": "125 West 104th Street",
+        "new_york_addresses": "125 West 104th Street, New York, NY",
+        "notes": "1st Floor",
+        "title": "GRUPO LUZ DIVINA -",
+        "name": "Iglesia Metodista Grace",
+        "wheelchairaccess": "Yes"
     }
 ]
