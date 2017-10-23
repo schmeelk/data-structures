@@ -11,10 +11,10 @@ This code will be uploaded every second.
 
 ====SQL CODE=========
 
-CREATE TABLE buttonData (
+CREATE TABLE photonData (
 ir int,
 piezo int,
-buttonTime timestamp DEFAULT current_timestamp);
+photonTime timestamp DEFAULT current_timestamp);
 
 
-INSERT INTO buttonData VALUES (1, 774, DEFAULT);
+INSERT INTO photonData VALUES (1, 774, DEFAULT);
